@@ -1,0 +1,19 @@
+{
+  "name": "json-api-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://tmoreland72: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@github.com/tmoreland72/json-api-example",
+  "author": "Troy Moreland <troy@morelands.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  }
+}
